@@ -1,0 +1,10 @@
+1. Create four input fields and one form button
+    input field one displays Amt to be converted in primary currency, USD$
+    input field two displays Amt to be converted in secondary currency, GHC
+    submit button to trigger dataConverter() onclick event.
+
+    input fields three and four displays covertion output for both currencies respectively; must be readOnly
+
+    create a function to capture and validate inputs for field one and two; function dataInput();
+
+    create a function to convert currencies; function currencyConverter();

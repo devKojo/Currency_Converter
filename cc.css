@@ -1,0 +1,25 @@
+input{
+    width:250px;
+    height:90px;
+    padding:10px;
+    margin:8px;
+    font-size: 20px;
+}
+
+#covertBtn {
+    width:270px;
+    height:40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #ccc;
+}
+
+#covertBtn:hover {
+
+    border-color: crimson;
+    color: crimson;
+}
+
+img{
+    border-radius: 100%;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./cc.css">
+        <script lang="javascript" type="text/javascript" src="./currencyCalculator.js"></script>
+         <script lang="javascript" type="text/javascript" src="./conversion.js"></script>
+         <script lang="javascript" type="text/javascript" src="./reverseConversion.js"></script>
+
+         
+    </head>
+    <body>
+
+        <div style="width:100%;">
+        <div style="display:inline-block; width:30%;"></div>
+        <div style="display:inline-block; width:40%;">
+            <p>&nbsp;</p>
+            <h1 style="text-align: center;">Dollar(USD) to Ghana Cedi(GHC) Converter<hr></h1><br>
+             <form>
+            <table>
+                <tr>
+                    <td>
+                        <!-- <label>USD $</label> -->
+                    </td>
+                    <td>
+                        <input type="number" value="" id="amt" placeholder="Select Preferred Currency">
+                    </td>
+                    <td>
+                    <select  name="currency"  id="currencySelection" onchange="currencySelector()">
+                        <option value="Select Preferred Currency">Currency</option>
+                        <option  value="$(USD)" id="usd">$(USD)</option>
+                        <option  value="(Euro)" id="euro">(Euro)</option>
+                        <option  value="(GBP)" id="pound">(GBP)</option>
+                    </select>
+                    </td>
+                    <td>
+                       <img id="flag-primary" width="40px" height="40px" src="./img/currency.png">
+                    </td>
+                </tr>
+                    <tr>
+                        
+                        <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+                        <td align="right"><img width="20px" height="20px" src="./img/up and down.svg"></td>
+                    </tr>
+                 <tr>
+                      <td>
+                        <!-- <label>GHC</label> -->
+                    </td>
+                    <td>
+                        <input type="number" id="amtGhc" value="" onclick="clearFunc()" placeholder="Amt to convert in (GHC)">
+                    </td>
+                    <td>
+                        <select>
+                            <option>(GHC)</option>
+                        </select>
+                    </td>
+                    <td>
+                          <img width="40px" height="40px" src="./img/ghana.png" id="flag-secondary">
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                       
+                    </td>
+                    <td>
+                    <input type="button" value="Convert" id="covertBtn" onclick="conversion()">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </div>
+        <div class="display:inline-block; width:30%;"></div>
+        </div>
+        
+        
+       
+       
+    </body>
+</html>

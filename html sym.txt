@@ -1,0 +1,26 @@
+	check mark &#x2714;
+	cross nark &#10060;
+
+
+1. What can a computer do?
+	a. Thnink and give answers
+	b. Respond to user queries
+	c. Re-arrange, organized and store raw data sets
+2. Software controls
+	a. a computer
+	b  computer's memory
+	c. computer's function
+3. A database stores information for future use
+	a. true
+	b. false
+	d. none    
+4. The Internet uses local ISP access point to connect
+users to a global network 
+	a. True
+	b. False
+	c. None
+5. An Application used to create and edit documents is 
+known as?
+	a. Pulishing software
+	b. Information editing Application
+	c. Word processing Application
